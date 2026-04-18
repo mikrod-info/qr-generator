@@ -18,7 +18,7 @@ def generate_qr(cartel_id):
             version = None,
             error_correction = qrcode.constants.ERROR_CORRECT_H,
             box_size = 10,
-            borderr = 4,
+            border = 4,
             )
 
     qr.add_data(url)
