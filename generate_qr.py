@@ -57,5 +57,5 @@ def main():
     for i in range (START, END + 1):
         generate_qr(i)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
