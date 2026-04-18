@@ -2,7 +2,7 @@ import os
 import qrcode
 from PIL import Image
 
-BASE_URL = "https://github.com/mikrod-info/carteles-accesibles/carteles"
+BASE_URL = "https://mikrod-info.github.io/carteles-accesibles/carteles"
 OUTPUT_DIR = "output"
 LOGO_PATH = "assets/PNG.png"
 COLOR = "black"
