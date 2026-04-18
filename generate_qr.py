@@ -12,7 +12,7 @@ START = 1
 END = 20
 
 def generate_qr(cartel_id):
-    url = f"{BASE_URL}/cartel-{cartel_id:03}.html"
+    url = f"{BASE_URL}/cartel-{cartel_id:02}.html"
 
     qr = qrcode.QRCode(
             version = None,
@@ -45,7 +45,7 @@ def generate_qr(cartel_id):
         else:
             img:paste(logo, pos)
 
-    filename = f"qr-cartel-{cartel_id:03}.png"
+    filename = f"qr-cartel-{cartel_id:02}.png"
     filepath = os.path.join(OUTPUT_DIR, filename)
 
     img.save(filepath)
