@@ -9,8 +9,8 @@ LOGO_PATH = "assets/PNG.png"
 COLOR = "black"
 BG_COLOR = "white"
 LOGO_DIM = 0.2
-START = sys.argv[1]
-END = sys.argv[2]
+START = int(sys.argv[1])
+END = int(sys.argv[2])
 
 def generate_qr(cartel_id):
     url = f"{BASE_URL}/cartel-{cartel_id:02}/"
