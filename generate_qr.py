@@ -5,7 +5,7 @@ from PIL import Image
 
 BASE_URL = "https://mikrod-info.github.io/carteles-accesibles/carteles"
 OUTPUT_DIR = "output"
-LOGO_PATH = "assets/PNG.png"
+LOGO_PATH = "assets/logo.png"
 COLOR = "black"
 BG_COLOR = "white"
 LOGO_DIM = 0.2
